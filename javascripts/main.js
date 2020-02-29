@@ -1,7 +1,7 @@
-import bearForm from './components/bearForm.js'
+import bearForm from './components/bearForm.js';
 
 const init = () => {
-    bearForm.bearButton();
+    bearForm.events();
 };
 
 init();
