@@ -1,1 +1,7 @@
-console.log('js works');
+import bearForm from './components/bearForm.js'
+
+const init = () => {
+    bearForm.bearButton();
+};
+
+init();
